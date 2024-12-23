@@ -82,7 +82,7 @@ Vagrant.configure("2") do |config|
     apt-get install -y fastfetch
     echo "fastfetch" >> .bashrc
     sudo apt install -y gcc
-    git clone https://github.com/LazyVim/starter .config/nvim
+    git clone https://github.com/LazyVim/starter.config/nvim
     git clone https://github.com/Messium/nvim_together git/
     chown -R vagrant:vagrant .config/
     chown -R vagrant:vagrant git/
